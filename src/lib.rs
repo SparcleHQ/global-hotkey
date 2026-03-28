@@ -10,7 +10,7 @@
 //!
 //! - Windows
 //! - macOS
-//! - Linux (X11 Only)
+//! - Linux (X11 and Wayland)
 //!
 //! ## Platform-specific notes:
 //!
@@ -48,7 +48,7 @@
 //!
 //! - Windows
 //! - macOS
-//! - Linux (X11 Only)
+//! - Linux (X11 and Wayland)
 
 use crossbeam_channel::{unbounded, Receiver, Sender};
 use once_cell::sync::{Lazy, OnceCell};
