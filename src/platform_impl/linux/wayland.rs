@@ -98,7 +98,9 @@ async fn rebind_all(
     })?;
 
     gs_state.session = gs_state.proxy.create_session().await.map_err(|e| {
-        Error::FailedToRegister(format!("Failed to start global shortcuts portal session: {e}"))
+        Error::FailedToRegister(format!(
+            "Failed to start global shortcuts portal session: {e}"
+        ))
     })?;
 
     let shortcuts: Vec<NewShortcut> = registered_hotkeys
