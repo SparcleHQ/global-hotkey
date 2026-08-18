@@ -1,3 +1,8 @@
+> **This is a mirror fork.** The Wayland support on the `bolt-unified-wayland` branch was
+> written by [@0-don](https://github.com/0-don), whose repository and GitHub account no longer
+> exist. It is republished here, with original authorship preserved, so that dependents can keep
+> building — not claimed as our own. See [MIRROR-NOTICE.md](./MIRROR-NOTICE.md).
+
 global_hotkey lets you register Global HotKeys for Desktop Applications.
 
 ## Platforms-supported:
